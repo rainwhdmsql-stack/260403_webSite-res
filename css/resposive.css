@@ -1,0 +1,27 @@
+/* 반응형 코드 */
+
+@media (max-width: 768px) {
+  /* 상단 메뉴바 */
+  .header-bt .gnb {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* 뉴스 */
+  .section-wrap ul li {
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media (max-width: 390px) {
+  /* 뉴스 */
+  section .inner {
+    width: 85%;
+  }
+  .section-wrap ul li {
+    width: 100%;
+  }
+}
